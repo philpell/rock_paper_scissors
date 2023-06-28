@@ -6,10 +6,10 @@ let computerScore = 0;
 let playerScore = 0;
 const myArray = ["Rock", "Paper", "Scissors"];
 
+// Runs the multiple games function
 game()
-// playRound(playerSelection, computerSelection);
 
-// Create computer choice
+// Create a random computer choice
 function computerChoice() {
   return myArray[~~(Math.random() * myArray.length)];
 }
@@ -17,7 +17,7 @@ function computerChoice() {
 // Create function to compare the selections for single game  
 function playRound(playerSelection, computerSelection) {
 
-//  To ensure any the format of the word is not case sensitive
+//  To ensure the format of the inputted word is not case sensitive
   computerSelection = computerChoice().toLowerCase();
   playerSelection = playerSelection.toLowerCase();
 
