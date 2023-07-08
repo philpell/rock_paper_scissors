@@ -1,3 +1,5 @@
+Preview available at: https://htmlpreview.github.io/?https://github.com/philpell/rock_paper_scissors/blob/main/index.html
+
 Attributions:
 
 Lobster Image by brgfx on Freepik <a href="https://www.freepik.com/free-vector/red-lobster-cartoon-sticker_21306007.htm#query=lobster%20cartoon&position=2&from_view=keyword&track=ais">Image by brgfx</a> on Freepik
