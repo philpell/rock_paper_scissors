@@ -1,0 +1,144 @@
+body {
+    background-image: url(images/beachGame.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 36px;
+    font-weight: 800;  
+}
+
+.btn{
+    display: flex;
+  
+}
+
+#pebble{
+    /* left: 30%; */
+    background: url('images/pebble.jpg');
+    background-position:center;
+    background-repeat:no-repeat; 
+    background-size: 30%;
+    mix-blend-mode: multiply;
+    width: 100px;
+    height: 100px;
+    flex: 1;
+    /* margin-top: 50px; */
+    border: white
+}
+
+#pebble:hover{
+    transform: scale(1.1);
+}
+
+#lobster{
+    /* left: 30%; */
+    background: url('images/lobster.jpg');
+    mix-blend-mode: multiply;
+    background-size: 50%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 30%;
+    width: 100px;
+    height: 100px;
+    flex: 1;
+    /* margin: 30px; */
+    border: white
+}
+
+#lobster:hover{
+    transform: scale(1.1);
+}
+#seaweed{
+    /* left: 30%; */
+    background: url('images/seaweed.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 20%;
+    mix-blend-mode: multiply;
+    width: 100px;
+    height: 100px;
+    flex: 1;
+    /* margin: 30px; */
+    border: white
+}
+
+#seaweed:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 90px;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FF9800;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 70px;
+}
+
+h2{
+    text-align: center;
+    font-size: 100px;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FF9800;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: -10px;
+}
+
+button {
+    background-image: url(images/plank.jpg);
+    background-repeat:no-repeat;
+    height: 40px;
+    width: 151px;
+    background-size: 150px;
+    border:  1px solid lightskyblue ;
+    text-align: center;
+    font-size: 25px;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FF9800;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FF9800;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: -10px;
+    
+}
+
+button#play {
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 90%;
+    width: 252px;
+    height: 66px;
+    background-size: 250px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FF9800;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border:  1px solid white ;
+}
+
+button#newGame {
+    margin-left: 75%;
+    flex: 1;
+}
+
+button#quit {
+    flex: 1;
+}
