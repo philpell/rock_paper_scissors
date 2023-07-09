@@ -6,16 +6,38 @@
     <title>Lobster, Pebble, Seaweed</title>
     <link rel="stylesheet" href="styles.css"></link>
 </head>
-<body>
-    <div id="container">
+<body onload="instruction()" id="body">
+    <div id="homeContainer">
       <form>
-        <button type="submit" formaction="indexTwo.html">Rules</button>
+        <button id='home' type="submit" formaction="#rules">Rules</button>
       </form>
     </div>
 <h1>Lobster - Pebble - Seaweed</h1>
-  <form>
-    <button id='play' type="submit" formaction="indexThree.html">Play Game</button>
+  <form id="playSection">
+    <button id='play' type="submit" formaction="#quit" >Play Game</button>
   </form>
+  <div id="rulesContainer">
+    <form>
+      <button id="rules" type="submit" formaction="#home">Back</button>
+      <button type="submit" formaction="#quit">Play</button>
+    </form>
+  <h2>Rules</h2>
+    <div id="ruleText">
+      <p>Loster, Pebble, Seaweed is a game of chance. Select either lobster, pebble or seaweed to beat the computer's randomly selected choice.</p>
+      <p>Pebble beats Lobster, Seaweed beats Pebble, and Lobster beats Seaweed. If both you and the computer select the same item, the round is a tie, and play resumes until someone wins five rounds.</p>
+    </div>
+  </div>
+  <div id="gameContainer" style="height: 540px;">
+    <form>
+      <button id="quit" type="submit" formaction="#home">Quit</button>
+      <button id="newGame" type="button" onClick="window.location.reload()">New game</button>
+    </form>
+      <div class="btn" onclick="removeStart()">  
+        <button id="lobster" ></button>
+        <button id="pebble" ></button>
+        <button id="seaweed" ></button>
+      </div>
+  </div> 
 <script src="script.js"></script>
 </body>
 </html>
