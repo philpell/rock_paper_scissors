@@ -14,7 +14,6 @@ body {
 }
 
 #pebble{
-    /* left: 30%; */
     background: url('images/pebble.jpg');
     background-position:center;
     background-repeat:no-repeat; 
@@ -23,7 +22,8 @@ body {
     width: 100px;
     height: 100px;
     flex: 1;
-    /* margin-top: 50px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
     border: white
 }
 
@@ -32,7 +32,6 @@ body {
 }
 
 #lobster{
-    /* left: 30%; */
     background: url('images/lobster.jpg');
     mix-blend-mode: multiply;
     background-size: 50%;
@@ -42,7 +41,8 @@ body {
     width: 100px;
     height: 100px;
     flex: 1;
-    /* margin: 30px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
     border: white
 }
 
@@ -50,7 +50,6 @@ body {
     transform: scale(1.1);
 }
 #seaweed{
-    /* left: 30%; */
     background: url('images/seaweed.png');
     background-position:center;
     background-repeat:no-repeat;
@@ -59,7 +58,8 @@ body {
     width: 100px;
     height: 100px;
     flex: 1;
-    /* margin: 30px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
     border: white
 }
 
@@ -116,7 +116,6 @@ p {
     color: #FF9800;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin-top: -10px;
-    
 }
 
 button#play {
@@ -141,4 +140,12 @@ button#newGame {
 
 button#quit {
     flex: 1;
+}
+
+#rulesContainer {
+    margin-bottom: 350px;
+}
+
+#playContainer {
+    min-height: 550px;
 }
