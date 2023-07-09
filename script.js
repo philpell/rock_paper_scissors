@@ -13,16 +13,15 @@ buttons.forEach((button) => {
   // and for each one we add a 'click' listener
   button.addEventListener('click', () => {
     playerSelection = button.id;
-    container.appendChild(start);
-    container.removeChild(start);
     game();
 });
 });
 
+//Create game comments and set text formatting
 const roundComment = document.createElement('div');
 roundComment.style.textAlign = 'center';
 roundComment.style.font = '700';
-roundComment.style.fontSize = '50px';
+roundComment.style.fontSize = '70px';
 roundComment.style.color = '#FF9800';
 roundComment.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
 
@@ -54,11 +53,12 @@ start.style.fontSize = '50px';
 start.style.color = '#FF9800';
 start.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
 
-container.appendChild(roundComment);
-container.appendChild(roundResult);
-container.appendChild(currentScore);
-container.appendChild(gameResult);
-container.appendChild(start);
+//Add the text to the relevant section within the html file
+gameContainer.appendChild(start);
+gameContainer.appendChild(roundComment);
+gameContainer.appendChild(roundResult);
+gameContainer.appendChild(currentScore);
+gameContainer.appendChild(gameResult);
 
 // // Create a random computer choice
 function computerChoice() {
@@ -76,7 +76,7 @@ if (playerScore == 5|| computerScore == 5){
 
   if (computerSelection == playerSelection) {
     roundResult.textContent = "Tie game!";
-    roundResult.style.fontSize = '50px';
+    roundResult.style.fontSize = '70px';
     roundComment.textContent = ``
     
   } else if (
@@ -87,7 +87,7 @@ if (playerScore == 5|| computerScore == 5){
     computerScore = ++computerScore;
     roundResult.style.fontSize = '70px';
     roundComment.textContent = `Bad luck!`
-    roundResult.textContent = `The computer's ${computerSelection} beats your ${playerSelection}.`;
+    roundResult.textContent = `The computer's ${computerSelection} beats your ${playerSelection}`;
     currentScore.textContent = `Player 1 score: ${playerScore}  -  Computer score: ${computerScore}`;
     return computerScore;
 
@@ -99,15 +99,15 @@ if (playerScore == 5|| computerScore == 5){
     playerScore = ++playerScore;
     roundResult.style.fontSize = '70px';
     roundComment.textContent = `Well Done!`
-    roundResult.textContent = `Your ${playerSelection} beats the computer's ${computerSelection}.`;
+    roundResult.textContent = `Your ${playerSelection} beats the computer's ${computerSelection}`;
     currentScore.textContent = `Player 1 score: ${playerScore} - Computer score: ${computerScore}`;
     return playerScore
     
   } else {
-    window.location.reload();
-    }
+      window.location.reload();
 }
-} 
+}
+}
 
 // // Create function to record scores, first to five
 function game() {
@@ -134,3 +134,9 @@ function instruction() {
   start.textContent = `Please select one of the items above to begin`;
 }
 
+//Remove instruction upon first selection
+function removeStart() {
+  gameContainer.appendChild(start);
+  gameContainer.removeChild(start);
+
+}
