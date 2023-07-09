@@ -24,7 +24,7 @@ roundComment.style.font = '700';
 roundComment.style.fontSize = '70px';
 roundComment.style.color = '#FF9800';
 roundComment.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
-roundComment.style.fontFamily = 'Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
+roundComment.style.fontFamily = "('Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif')";
 
 const roundResult = document.createElement('div');
 roundResult.style.textAlign = 'center';
@@ -32,7 +32,7 @@ roundResult.style.font = '700';
 roundResult.style.fontSize = '70px';
 roundResult.style.color = '#FF9800';
 roundResult.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
-roundResult.style.fontFamily = 'Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
+roundResult.style.fontFamily = "('Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif')";
 
 const currentScore = document.createElement('div');
 currentScore.style.textAlign = 'center';
@@ -40,7 +40,7 @@ currentScore.style.font = '700';
 currentScore.style.fontSize = '70px';
 currentScore.style.color = '#FF9800';
 currentScore.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
-currentScore.style.fontFamily = 'Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
+currentScore.style.fontFamily = "('Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif')";
 
 const gameResult = document.createElement('div');
 gameResult.style.textAlign = 'center';
@@ -48,7 +48,7 @@ gameResult.style.font = '700';
 gameResult.style.fontSize = '100px';
 gameResult.style.color = '#FF9800';
 gameResult.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
-gameResult.style.fontFamily = 'Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
+gameResult.style.fontFamily = "('Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif')";
 
 const start = document.createElement('div');
 start.style.textAlign = 'center';
@@ -56,7 +56,7 @@ start.style.font = '700';
 start.style.fontSize = '50px';
 start.style.color = '#FF9800';
 start.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
-start.style.fontFamily = 'Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
+start.style.fontFamily = "('Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif')";
 
 //Add the text to the relevant section within the html file
 gameContainer.appendChild(start);
