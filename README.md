@@ -1,3 +1,5 @@
+Preview the game here: https://rawcdn.githack.com/philpell/rock_paper_scissors/5c936476096f3ce461b5f53192d67d96abd8d7b4/index.html?#home
+
 Attributions:
 
 Lobster Image by brgfx on Freepik <a href="https://www.freepik.com/free-vector/red-lobster-cartoon-sticker_21306007.htm#query=lobster%20cartoon&position=2&from_view=keyword&track=ais">Image by brgfx</a> on Freepik
