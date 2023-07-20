@@ -1,4 +1,4 @@
-Preview the game here: https://rawcdn.githack.com/philpell/rock_paper_scissors/5c936476096f3ce461b5f53192d67d96abd8d7b4/index.html?#home
+Preview the game here: https://rawcdn.githack.com/philpell/rock_paper_scissors/5ca33b3373f5b22132b036fc0e1b18c819c69d73/index.html
 
 Attributions:
 
