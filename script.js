@@ -21,7 +21,7 @@ buttons.forEach((button) => {
 const roundComment = document.createElement('div');
 roundComment.style.textAlign = 'center';
 roundComment.style.font = '700';
-roundComment.style.fontSize = '60px';
+roundComment.style.fontSize = '50px';
 roundComment.style.color = '#FF9800';
 roundComment.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
 roundComment.style.fontFamily = "('Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif')";
@@ -37,7 +37,7 @@ roundResult.style.fontFamily = "('Impact, Haettenschweiler, 'Arial Narrow Bold',
 const currentScore = document.createElement('div');
 currentScore.style.textAlign = 'center';
 currentScore.style.font = '700';
-currentScore.style.fontSize = '60px';
+currentScore.style.fontSize = '50px';
 currentScore.style.color = '#FF9800';
 currentScore.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
 currentScore.style.fontFamily = "('Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif')";
@@ -53,7 +53,7 @@ gameResult.style.fontFamily = "('Impact, Haettenschweiler, 'Arial Narrow Bold', 
 const start = document.createElement('div');
 start.style.textAlign = 'center';
 start.style.font = '700';
-start.style.fontSize = '60px';
+start.style.fontSize = '50px';
 start.style.color = '#FF9800';
 start.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
 start.style.fontFamily = "('Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif')";
@@ -81,7 +81,7 @@ if (playerScore == 5|| computerScore == 5){
 
   if (computerSelection == playerSelection) {
     roundResult.textContent = "Tie game!";
-    roundResult.style.fontSize = '70px';
+    roundResult.style.fontSize = '50px';
     roundComment.textContent = ``
     
   } else if (
@@ -90,7 +90,7 @@ if (playerScore == 5|| computerScore == 5){
     (computerSelection == "seaweed" && playerSelection == "pebble")
   ) {
     computerScore = ++computerScore;
-    roundResult.style.fontSize = '70px';
+    roundResult.style.fontSize = '60px';
     roundComment.textContent = `Bad luck!`
     roundResult.textContent = `The computer's ${computerSelection} beats your ${playerSelection}`;
     currentScore.textContent = `Player 1 score: ${playerScore}  -  Computer score: ${computerScore}`;
@@ -102,7 +102,7 @@ if (playerScore == 5|| computerScore == 5){
     (computerSelection == "lobster" && playerSelection == "pebble")
   ) {
     playerScore = ++playerScore;
-    roundResult.style.fontSize = '70px';
+    roundResult.style.fontSize = '60px';
     roundComment.textContent = `Well Done!`
     roundResult.textContent = `Your ${playerSelection} beats the computer's ${computerSelection}`;
     currentScore.textContent = `Player 1 score: ${playerScore} - Computer score: ${computerScore}`;
