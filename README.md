@@ -1,4 +1,4 @@
-Preview available at: https://htmlpreview.github.io/?https://github.com/philpell/rock_paper_scissors/blob/main/index.html
+Preview available at: https://rawcdn.githack.com/philpell/rock_paper_scissors/4d2784263694d50a4cdf3397de1c9bbad623706a/index.html?
 
 Attributions:
 
